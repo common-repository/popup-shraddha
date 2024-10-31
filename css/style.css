@@ -1,0 +1,38 @@
+/*CSS for top bar*/
+#popup_shraddha_top_bar{position:fixed;padding:8px;width:100%;background-color:#000;color:#FFF;text-align:center;top:0px;z-index:10000;margin-bottom:10px;}
+#popup_shraddha_close_top_bar{ float:right; cursor:pointer;}
+
+/*CSS for bottom bar*/
+#popup_shraddha_footer_bar{position:fixed; padding:8px; 20px; width:100%; background-color:#000; color:#FFF; text-align:center; bottom:0px; z-index:10000;}
+#popup_shraddha_close_bottom_bar{float:right; cursor:pointer;}
+
+/*CSS for middle bar*/
+#popup_shraddha_middle_contaner{position:fixed; width:100%; height:100%; background-color:rgba(0,0,0,.65);  z-index:10000; left:0px; top:0px;}
+#popup_shraddha_middle_contaner #popup_shraddha_middle_message{
+	width:600px; 
+	height:400px; 
+	top:50%; 
+	left:50%;
+	margin-left:-300px;
+	margin-top:-200px;
+	background-color:#000;  
+	position:fixed;
+	border:#999px;
+	border-radius:6px; 
+	color:#FFF; display:block; padding:20px;}
+#popup_shraddha_text_container{width:100%;height:96%; overflow-x:hidden;  overflow-y:scroll; display:block;}	
+#popup_shraddha_close_middle_button{ float:right; cursor:pointer;}
+
+
+#popup_shraddha_text_container::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+#popup_shraddha_text_container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+#popup_shraddha_text_container::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
